@@ -1,0 +1,14 @@
+{
+  "name": "isaac-fear-and-hunger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Binding of Isaac x Fear & Hunger: adds Isaac as a recruitable companion.",
+  "scripts": {
+    "build": "node tools/build-assets.js && node tools/build-audio.js",
+    "test": "node test/run.js",
+    "install-mod": "node install.js"
+  },
+  "devDependencies": {
+    "acorn": "^8.12.0"
+  }
+}
